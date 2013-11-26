@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="cq:Dialog"
+          height="370"
+          width="700"
+          xtype="dialog">
+    <items
+            jcr:primaryType="nt:unstructured"
+            xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <options
+                    jcr:primaryType="cq:Widget"
+                    title="News Slider Item"
+                    xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+					<mainBlock
+                            jcr:primaryType="cq:Widget"
+                            title="Options"
+                            xtype="dialogfieldset">
+                        <items jcr:primaryType="cq:WidgetCollection">
+                            <count
+                                    jcr:primaryType="cq:Widget"
+                                    fieldLabel="Number: "
+                                    name="./count"
+                                    xtype="textfield"/>
+							<description
+									jcr:primaryType="cq:Widget"                            
+									fieldLabel="Description: "
+									name="./description"
+									xtype="textarea"/>
+                            <twodigitleft
+                                    jcr:primaryType="cq:Widget"
+                                    fieldLabel="Two big digits left"
+                                    name="./twodigitleft"
+                                    type="checkbox"
+                                    xtype="selection"/>
+                            <littlenumber
+                                    jcr:primaryType="cq:Widget"
+                                    fieldLabel="Little number"
+                                    name="./littlenumber"
+                                    type="checkbox"
+                                    xtype="selection"/>
+                            <fullwidth
+                                    jcr:primaryType="cq:Widget"
+                                    fieldLabel="Full width"
+                                    name="./fullwidth"
+                                    type="checkbox"
+                                    xtype="selection"/>
+                        </items>
+                    </mainBlock>
+                </items>
+            </options>            
+        </items>
+    </items>
+</jcr:root>

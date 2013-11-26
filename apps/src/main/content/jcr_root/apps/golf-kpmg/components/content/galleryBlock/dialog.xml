@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="cq:Dialog"
+          height="500"
+          width="700"
+          xtype="dialog">
+    <items
+            jcr:primaryType="nt:unstructured"
+            xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <panel1
+                    jcr:primaryType="cq:Widget"
+                    title="Thumbnail"
+                    xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">					
+					<block1
+                            jcr:primaryType="cq:Widget"
+                            title="Thumbnail"
+                            xtype="dialogfieldset">
+                        <items jcr:primaryType="cq:WidgetCollection">
+                            <title
+                                    jcr:primaryType="cq:Widget"
+                                    fieldLabel="Title: "
+                                    name="./title"
+                                    xtype="textarea"/>
+							<thumbnail
+									jcr:primaryType="cq:Widget"
+									fieldLabel="Image path:"
+									name="./thumbnail"
+									rootPath="/content/dam/golf-kpmg"
+									xtype="pathfield"/>
+                            <thumbnail_mobile
+                                    jcr:primaryType="cq:Widget"
+                                    fieldLabel="Image path (mobile version):"
+                                    name="./thumbnailMobile"
+                                    rootPath="/content/dam/golf-kpmg"
+                                    xtype="pathfield"/>
+                            <!--large_image
+                                    jcr:primaryType="cq:Widget"
+                                    fieldLabel="Large image path:"
+                                    name="./largeImage"
+                                    rootPath="/content/dam/golf-kpmg"
+                                    xtype="pathfield"/-->
+							<!--thumbnail_size
+									jcr:primaryType="cq:Widget"
+									fieldLabel="Large thumbnail: "
+									fieldValue="false"
+									name="./isLargeThumbnail"
+									type="checkbox"
+									xtype="selection"/-->
+                            <more_link
+                                    jcr:primaryType="cq:Widget"
+                                    fieldLabel="MORE Link:"
+                                    name="./moreLink"
+                                    xtype="pathfield"/>
+                        </items>
+                    </block1>       					
+					<block2
+                            jcr:primaryType="cq:Widget"
+                            title="Media Content"
+                            xtype="dialogfieldset">
+                        <items jcr:primaryType="cq:WidgetCollection">                            
+                            <typeRadioGroup
+                                    jcr:primaryType="cq:Widget"
+                                    fieldLabel="Type: "
+                                    name="./type"
+                                    type="radiogroup"
+                                    width="400"
+                                    xtype="selection">
+                                <options jcr:primaryType="cq:WidgetCollection">
+									<video
+                                            jcr:primaryType="nt:unstructured"
+											checked="true"
+                                            text="Video"
+                                            value="video"
+                                            xtype="radio"/>
+                                    <image
+                                            jcr:primaryType="nt:unstructured"
+                                            text="Images"
+                                            value="photos"
+                                            xtype="radio"/>                                    
+                                </options>
+                            </typeRadioGroup>
+                        </items>
+                    </block2> 
+                </items>
+            </panel1>  
+			<panel2
+                    jcr:primaryType="cq:Widget"
+                    title="Media Content"
+                    xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection"> 
+					<block1
+                            jcr:primaryType="cq:Widget"
+                            title="Video"
+                            xtype="dialogfieldset">
+                        <items jcr:primaryType="cq:WidgetCollection">
+                            <title
+                                    jcr:primaryType="cq:Widget"
+                                    fieldLabel="YouTube video ID: "
+                                    name="./videoLink"
+                                    xtype="textfield"/>							
+                        </items>
+                    </block1>
+                    <block2
+                            jcr:primaryType="cq:Widget"
+                            title="Images"
+                            xtype="dialogfieldset">
+                        <items jcr:primaryType="cq:WidgetCollection">
+                            <images
+                                    jcr:primaryType="cq:Widget"
+                                    fieldDescription="Press '+' to add more items. Use 'up/down' to change items order."
+                                    fieldLabel="Image path:"
+                                    hideLabel="false"
+                                    name="./images"
+                                    xtype="multifield">
+                                <fieldConfig
+                                        jcr:primaryType="cq:Widget"
+                                        rootPath="/content/dam/golf-kpmg"
+                                        xtype="pathfield"/>
+                            </images>
+                        </items>
+                    </block2>
+                </items>
+            </panel2>
+        </items>
+    </items>
+</jcr:root>
