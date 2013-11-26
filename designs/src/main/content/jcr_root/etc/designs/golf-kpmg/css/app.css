@@ -1,0 +1,1596 @@
+.clear {
+	clear: both;
+}
+.all-caps {
+	text-transform: uppercase;
+}
+.block {
+	display: block;
+}
+.orangetxt {
+	color: #e98325;
+}
+.greentxt {
+	color: #7ab700;
+}
+.whitetxt {
+	color: #fff;
+}
+.bluetxt {
+	color: #009fda;
+}
+.outer-wrap {
+	background: url("../img/bg-img.jpg") no-repeat center top;
+	background-size: cover;
+}
+.blue-book-display {
+	display: none;
+}
+.blue-for-books-page .blue-book-display {
+	display: block;
+}
+/*button styles*/
+.button {
+	border-radius: 5px;
+	padding: 4px 10px;
+	margin: 0;
+	color: #fff;
+	border: 0;
+	font-size: 12px;
+}
+.yellow-btn {
+	background: #ebb700;
+}
+.blue-btn {
+	background: #21a4da;
+}
+/*header styles*/
+.navigation-wrap {
+	padding-left: 0;
+}
+.logo {
+	padding-right: 0;
+	/*background: url(../img/blue-bg-spacer.png) no-repeat right top;*/
+}
+.logo a {
+	display: block;
+	min-height: 102px;
+	text-indent: -90009px;
+}
+.nav-heading {
+	color: #fff;
+	font-size: 29px;
+	text-transform: uppercase;
+	padding: 0 0 5px 23px;
+}
+.header .row, .marginb20 {
+	margin-bottom: 20px !important;
+}
+/*navigation*/
+.mobile-header {
+	background:url("../img/logo.png") no-repeat 10px top;
+}
+.navigation {
+	/*background: #02348a;*/
+	padding: 23px 0 0;
+	height: 102px;
+	position: relative;
+}
+.navigation ul {
+	padding: 0 0 0 10px;
+	margin: 0;
+	list-style: none;
+}
+.list-item,
+.utility-nav {
+	display: inline-block;
+	font-size: .75em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.list-item a:hover,
+.yellowtxt,
+.golf-kpmg-page .overview-item a,
+.home .overview-item a,
+.performances-page .performances-item a,
+.the-players-page .players-item a,
+.players-page .players-item a,
+.bths-page .bts-item a,
+.behind-the-scenes-page .bts-item a,
+.blue-for-books-page .bfb-item a {
+    color: #ebb700 !important;
+}
+.utility-nav a {
+	text-transform: none;
+}
+.utility-nav {
+	margin-right: 25px;
+}
+.slash-caret {
+	color: #00a7e5;
+	margin: 0 13px;
+}
+.lt-ie9 .slash-caret {
+	margin: 0 12px;
+}
+.mobile-menu-button {
+	color: #fff;
+	position: absolute;
+	right: 11px;
+	top:58px;
+	cursor: pointer;
+}
+.mobile-menu-button img {
+	margin-left:7px;
+}
+.mobile-menu ul {
+	margin: 0;
+}
+.mobile-menu li {
+	font-size: 0.75em;
+	text-transform: uppercase;
+	background: #016fb1;
+	line-height: 33px;
+	border-top: 2px solid #fff;
+}
+.mobile-menu li > a {
+	display: block;
+}
+.mobile-menu a > span {
+	margin: 0 .25em 0 1em;
+}
+.mobile-menu-row {
+	margin-top: -20px;
+}
+.page-title {
+	font-size: 0.75em;
+	line-height: 33px;
+	background: #00338d;
+	padding-left: 1em;
+	border-top: 2px solid #fff;
+}
+/*main content*/
+.white-rgba {
+	background:#fff;
+	background: rgba(255,255,255,0.8)
+}
+.black-rgba {
+	background:url("../img/overlay-bg.png") repeat 0 0;
+	background: rgba(0,0,0,0.5)
+}
+.title {
+	font-size: 1.4375em;
+	margin: 0;
+}
+.title small,
+.title, .donate-blurb {
+	color: #fff;
+}
+.donate-blurb, .donate-block-content a {
+	font-size: 11px;
+}
+.donate-blurb {
+	line-height: 14px;
+}
+.title small, .font13 {
+	font-size: 13px;
+}
+.donate-blurb .font13 {
+	display: inline-block;
+}
+.donate-block-content .title {
+	line-height: 17px;
+	padding: 8px 0 4px;
+}
+.donate-overlay {
+	padding: 0 10px 6px;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	cursor: pointer;
+}
+.donate-block-content,
+.follow-block-content {
+	height: 140px;
+	position: relative;
+}
+.donate-block-content {
+	overflow: hidden;
+}
+.follow-block-content {
+	cursor: pointer;
+}
+.twitter-title {
+	background: url("../img/icon-twitter.png") no-repeat right 4px;
+	font-size: 1.5em;
+	line-height: 1em;
+	color: #fff;
+}
+.twitter-handle {
+	font-size: .75em;
+}
+.twitter-handle > span {
+	padding-top: 0.8em;
+	font-weight: bold;
+}
+.follow-block-content, .scan-lines-black {
+	background: url("../img/scan-lines-black.png") repeat;
+	padding: 10px;
+}
+.purchase-hat-block-content {
+	background:url("../img/scan-lines-orange.png") repeat;
+	overflow: hidden;
+	padding: 10px;
+}
+.hat-link {
+	width: auto;
+	position: relative;
+}
+.overlay-title {
+	background: #000;
+	background:rgba(0,0,0,0.5);
+	font-size: 0.6875em;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	padding: 0.5625em 0;
+	left: 0;
+	bottom: 0;
+}
+.hat-link .orangetxt,
+.video-block-content .yellowtxt {
+	font-size: 16px;
+	position: relative;
+	top: 2px;
+}
+.purchase-hat-title {
+	padding: 0.625em;
+}
+.purchase-hat-title h2 {
+	font-size: 1.5em;
+	line-height: 1em;
+	margin-bottom: 0.2125em;
+}
+.purchase-hat-title h3 {
+	font-size: 0.875em;
+	line-height: 1em;
+}
+.video-block-content {
+	position: relative;
+}
+.video-block-content .yellowtxt {
+	margin: 0 5px 0 20px;
+}
+.blue-hat-block-content {
+	background: #1f4894;
+	position: relative;
+	padding: 0.625em 0.875em;
+}
+.blue-hat-block-content h3 {
+	font-size: 0.875em;
+	margin-bottom: 0;
+}
+.blue-hat-block-content p {
+	font-size: 0.75em;
+	color: #fff;
+	line-height: 18px;
+}
+.blue-hat-block-content .blue-btn {
+	position: absolute;
+	right: 10px;
+	bottom: 12px;
+}
+
+
+/* NEWS SLIDER */
+.news-slider {
+	min-height:115px;
+}
+.news-slider-outer{
+	position:relative;
+	background: #ebb700;
+	background: rgba(235,185,0,0.8);
+	height: 100%;
+}
+.news-slide {
+	color: #333;
+	padding: 10px;
+	overflow: hidden;
+	min-height:115px !important;
+	width:100% !important;
+}
+.number-count {
+	color: #fff;
+	font-size: 4.5em;
+}
+.number-count.littlenumber {
+   clear: both;
+    font-size: 2.5em;
+}
+.news-content {
+	font-size: 0.875em;
+    line-height: 18px;
+    margin-left: .5em;
+    overflow: hidden;
+    padding-bottom: 2px;
+    padding-top: 3px;
+    width: 80%;
+}
+.twodigitleft .news-content {
+	font-size: 0.94em;
+    line-height: 1.3em;
+    padding-top: 8px;
+    width: 66%;
+
+}
+.news-content.fullwidth{
+	clear: both;
+    width: 100%;
+	font-size:0.875em;
+	margin-left: 0;
+}
+.news-slider .rsNav {
+	background: #e4a200;
+	background: rgba(228,162,0,0.8);
+	line-height: 25px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	right: 0;
+	height: 25px;
+	text-align: right;
+	padding-right: 11px;
+}
+/* END NEWS SLIDER */
+
+/* HOME SLIDER */
+.royalSlider {
+	width: 100%;
+	height: 100%;
+	min-height: 237px;
+	max-height: 400px;
+	position: relative;
+}
+.rsArrow .rsArrowIcn, .rsArrow {
+	display: block;
+    height: 28px;
+    width: 24px;
+}
+.rsArrow  {
+    position: absolute;
+    top: 50%;
+}
+
+.rsArrowLeft {
+	background: url("../img/cycle-prev.png") no-repeat scroll left top transparent;
+    left: 10px;
+}
+
+.rsArrowRight {
+	background: url("../img/cycle-next.png") no-repeat scroll left top transparent;
+    right: 10px;
+}
+.rsNav {
+	height: auto;
+	line-height: 12px;
+	position: absolute;
+	bottom: 12px;
+	right: 14px;
+}
+.rsBullet {
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	padding: 0;
+	margin-left: 10px;
+}
+.rsBullet span {
+	display: block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #CCC;
+	background: rgba(255,255,255,0.5);
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.rsBullet.rsNavSelected span {
+	background: #fff;
+}
+.hslide-content { 
+	height:100%;
+	position: relative;
+}
+.panel-content {
+	background:url("../img/blue-bar.png") no-repeat right top;
+	bottom: 12px;
+	left: 0;
+    position: absolute;
+    padding: 18px 85px 18px 40px;
+}
+.panel-content h2 {
+	font-size: 2.125em;
+	line-height: 1.4;
+	margin: 0;
+	/*text-transform: capitalize;*/
+}
+.panel-content .subtext{
+	color: #fff;
+    font-size: 0.875em;
+    line-height: 1.4;
+    margin: 0;
+    /*text-transform: capitalize;*/
+}
+.main-slide-a {
+	background:url("/content/dam/golf-kpmg/cycle-large-1.jpg") no-repeat center top;
+	background-size: cover;
+	
+}
+.main-slide-b {
+	background:url("/content/dam/golf-kpmg/cycle-large-2.jpg") no-repeat center top;
+	background-size: cover;
+	
+}
+.main-slide-c {
+	background:url("/content/dam/golf-kpmg/cycle-large-3.jpg") no-repeat center top;
+	background-size: cover;
+	
+}
+.main-slide-d {
+	background:url("/content/dam/golf-kpmg/cycle-large-4.jpg") no-repeat center top;
+	background-size: cover;
+	
+}
+.main-slide-e {
+	background:url("/content/dam/golf-kpmg/cycle-large-5.jpg") no-repeat center top;
+	background-size: cover;
+	
+}
+.main-slide-b .panel-content {
+	padding: 12px 85px 18px 40px;
+}
+.main-slide-b .subtext {
+	margin-bottom: 5px;
+}
+.main-slide-c .panel-content {
+	padding: 15px 85px 18px 40px;
+}
+.main-slide-c .panel-content h2 {
+	font-size: 1.375em;
+	margin-bottom: 5px;
+}
+.main-slide-c .subtext, .main-slide-d .subtext {
+	display: inline-block;
+}
+.main-slide-d .panel-content {
+	padding: 18px 85px 18px 40px;
+}
+.main-slide-d .custom-watch-the-video {
+	margin: 0 0 0 20px;
+}
+.custom-watch-the-video {
+    background: url("../img/video-plus-icon.png") no-repeat left center;
+    font-size: 0.875em;
+    line-height: 1.125;
+    font-weight: bold;
+    padding-left: 13px;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+.rsWebkit3d .rsSlide {
+    -webkit-transform: translateZ(0);
+}
+.rsWebkit3d * {
+   -webkit-backface-visibility: hidden;
+   -webkit-transform: translateZ(0); 
+}
+/* END SLIDER */
+/*photo gallery slider*/
+.photo-gallery {
+	position: relative;
+	height: 430px;
+	width: 614px;
+}
+.photo-gallery .rsNav {
+	background: #000;
+	background: rgba(0,0,0,0.8);
+	height: 44px;
+	line-height: 44px;
+	bottom: 3px;
+	right: auto;
+	width: 100%;
+	text-align: center;
+}
+.photo-gallery .rsArrow {
+	top: 391px;
+	z-index: 100;
+}
+/*.photo-slide {
+	height: 430px;
+	width: 100%;
+}
+.stacyslide1 {
+	background: url(../img/stacy1.jpg) no-repeat center top;
+	background-size: cover;
+}
+.stacyslide2 {
+	background: url(../img/stacy2.jpg) no-repeat center top;
+	background-size: cover;
+}
+.stacyslide3 {
+	background: url(../img/stacy3.jpg) no-repeat center top;
+	background-size: cover;
+}
+.stacyslide4 {
+	background: url(../img/stacy4.jpg) no-repeat center top;
+	background-size: cover;
+}
+.stacyslide5 {
+	background: url(../img/stacy.jpg) no-repeat center top;
+	background-size: cover;
+}*/
+/*end photo gallery slider*/
+
+.event-block-content {
+	padding: 0.625em;
+}
+.event-content {
+	padding-top: 1.25em;
+	margin-left: 0.625em;
+	line-height: 1.25em;
+}
+.event-content h3, .event-block-content h3,
+.event-title, .event-date, .event-location {
+	font-size: 0.875em;
+	color: #333;
+	line-height: 1.25em;
+}
+.event-block-content h3 {
+	margin: 0 0 0.3125em;
+	color: #666;
+	padding-top: 1.25em;
+}
+.event-img {
+	margin-right: 0.625em;
+}
+.event-title {
+	margin-bottom: 0.4125em;
+}
+.twitter-block-content {
+	background: #3a3a3b;
+}
+.twitter-block-title {
+	margin: 0;
+	font-size: 1em;
+	background: url("../img/icon-twitter.png") no-repeat 260px 7px #000;
+	padding-left: 1em;
+	line-height: 2.125em;
+}
+.tweet-feed {
+	font-size: 0.75em;
+	color: #fff;
+	font-weight: bold;
+	margin: 0 1.0625em 0.375em;
+	padding: 1.0625em 0;
+	line-height: 18px;
+	border-bottom: 1px solid #4f4f50;
+}
+.tweet-feed.last {
+	border-bottom: 0;
+	display: none;
+}
+.tweet-feed a {
+	font-weight: normal;
+	color: #009fda;
+}
+.tweet-menu, .tweet-menu a {
+	color: #999;
+}
+.tweet-menu span {
+	margin: 0 7px;
+}
+.tweet-menu {
+	padding-top: 10px;
+}
+.tweet-menu > div {
+	display: inline-block;
+	border-right: 1px solid #999;
+	padding-right: 7px;
+	margin-right: 7px;
+}
+.performances-page .tweet-menu > div {
+	padding-right: 5px;
+	margin-right: 4px;
+}
+.tweet-menu .favorite {border:0;}
+/*twitter feed scrollbar */
+#scrollbar1 { clear: both; }
+.viewport { height: auto; overflow: hidden; position: relative; }
+#scrollbar1 .overview { list-style: none; /*position: absolute; left: 0; top: 0;*/ }
+#scrollbar1 .thumb .end,
+#scrollbar1 .thumb { background-color: #999; }
+#scrollbar1 .scrollbar { position: relative; float: right; width: 15px; }
+#scrollbar1 .track { background-color: #3a3a3b; height: 100%; width:13px; position: relative; padding: 0 1px; }
+#scrollbar1 .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#scrollbar1 .thumb .end { overflow: hidden; height: 5px; width: 13px; }
+#scrollbar1 .disable{ display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+.overview > div:nth-child(3) {
+		display: none;
+	}
+/*about content styles*/
+.about-wrap {
+	background: #e4e2dc;
+	padding-top: 38px;
+	padding-bottom: 38px;
+}
+.about-wrap h2 {
+	font-size: 2.5em;
+	color: #1f4894;
+	line-height: 45px;
+	margin:0;
+}
+.about-wrap p {
+	margin: 0;
+	font-size: 0.75em;
+	padding-top: 0.625em;
+	line-height: 18px;
+	margin-bottom: 0.625em;
+}
+/*footer styles*/
+.footer {
+	background: #fff;
+	padding: 1.875em 0;
+}
+.footer-nav, .footer p {
+	font-size: 0.6875em;
+}
+.footer-nav {
+	margin-bottom: 1em;
+}
+.footer-nav a {
+	color: #666;
+	text-decoration: underline;
+}
+.footer-nav a:hover {
+	text-decoration: none;
+}
+.smart-phone-row {
+	display: none;
+}
+.mobile-menu ul, .close-txt, .menu-icon-close, .tablet-show {
+	display: none;
+}
+/* MODAL STYLES */
+.reveal-modal {
+	border: 1px solid #fff;
+}
+.reveal-modal-bg {
+	background: white;
+	background: rgba(255,255,255,0.5)
+}
+.reveal-modal.textmodal{
+	width:620px;
+	height:388px;
+	padding:3px;
+	margin-left:-310px;
+}
+
+.reveal-modal.videomodal .modal-inner{
+	margin:8px 8px 0;
+}
+
+.modal-image{
+	float:left;
+	width:242px;
+	height:380px;
+}
+
+.modal-text{
+	float: left;
+    height: 365px;
+    margin: 2px 0 0 20px;
+    overflow-y: scroll;
+    width: 336px;
+}
+.modal-text-full {
+	float: none;
+    height: 313px;
+    overflow-y: scroll;
+    width: 583px;
+    margin: 0 auto;
+}
+.modal-heading {
+	font-size: 20px;
+	color: #fff;
+	margin: 0 0 12px;
+	background:#21a4da;
+	height: 34px;
+	line-height: 34px;
+	width: 574px;
+	padding-left: 16px;
+}
+.modal-text-full, .modal-text h3 {
+	font-size: 15px;
+	color: #5a5a5a;
+}
+.modal-text h3 {
+	margin: 0
+}
+.modal-text .stats-list {
+	color: #5a5a5a;
+}
+
+.modal-text-inner{
+}
+
+.modal-text h2{
+	color:#5a5a5a;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:normal;
+	margin-right:10px;
+}
+.modal-text p{
+	margin-right:10px;
+	color:#5a5a5a;
+	font-family:Arial;
+	font-size:13px;
+}
+.modal-text a {
+	color: #009fda;
+}
+.reveal-modal .close-reveal-modal {
+	 background: url("../img/modal-close.png") no-repeat scroll left top transparent;
+    height: 34px;
+    right: 3px;
+    text-indent: -4444px;
+    top: 3px;
+    width: 34px;
+}
+::-webkit-scrollbar {
+	  width: 20px;
+} /* this targets the default scrollbar (compulsory) */
+
+::-webkit-scrollbar-track {
+	  background-color: #e0e0e0;
+} /* the new scrollbar will have a flat appearance with the set background color */
+
+::-webkit-scrollbar-thumb {
+	  background-color: #929191;
+		border:3px solid #e0e0e0;
+} /* this will style the thumb, ignoring the track */
+
+::-webkit-scrollbar-button {
+	  background-color: #e0e0e0;
+		height:1px;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+
+::-webkit-scrollbar-corner {
+	  background-color: #e0e0e0;
+		height:1px;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+/* END MODAL STYLES */
+
+
+/*performances styles*/
+.green-bg {
+	background:#7cb021;
+}
+.orange-rgba {
+	background:#e98325;
+	background:rgba(233,131,37,0.8);
+}
+.dyn-stat {
+	font-size:0.75em;
+	color: #fff;
+	padding: 22px;
+	position: relative;
+}
+.dyn-stat .kpmghash {
+	font-size: 1em;
+	color: #1f4894;
+	font-weight: bold;
+}
+.stat {
+	line-height: 18px;
+}
+.stat-number {
+	font-size: 3.5em;
+}
+.left-align-title {
+	text-align: left;
+	padding: 6px 0 6px 20px;
+	line-height: 14px;
+}
+.lHeight {
+	line-height: 28px;
+}
+.performance-slide-a {
+	background:url("/content/dam/golf-kpmg/performance-slide1.jpg") no-repeat center top;
+	background-size: cover;
+	
+}
+.performance-slide-b {
+	background:url("/content/dam/golf-kpmg/performance-slide2.jpg") no-repeat center top;
+	background-size: cover;
+	
+}
+.performance-slide-c {
+	background:url("/content/dam/golf-kpmg/performance-slide3.jpg") no-repeat center top;
+	background-size: cover;
+	
+}
+.performance-slide-d {
+	background:url("/content/dam/golf-kpmg/performance-slide7.jpg") no-repeat center top;
+	background-size: cover;
+	
+}
+.performance-slide-e {
+	background:url("/content/dam/golf-kpmg/performance-slide6.jpg") no-repeat center top;
+	background-size: cover;
+	
+}
+.performance-slide-f {
+	background:url("/content/dam/golf-kpmg/performance-slide5.jpg") no-repeat center top;
+	background-size: cover;
+	
+}
+.performance-slider {
+	height: 400px;
+}
+.performance-slider .panel-content h2 {
+	font-size: 1.8125em;
+	line-height: 1.2;
+}
+.performance-slider .panel-content .subtext {
+	margin: 0 0 5px;
+}
+.performance-slide-a .panel-content, .performance-slide-b .panel-content, .performance-slide-f .panel-content {
+	background: url("../img/performance-bluebar.png") no-repeat left top;
+}
+.performance-slide-f .panel-content {
+	padding: 18px 85px 18px 22px;
+}
+/*the players styles*/
+.kpmghash {
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	font-size: 0.75em;
+}
+/*.players-page .overlay-title, .bths-page .overlay-title, .performances-page .overlay-title {
+	text-transform: capitalize;
+}*/
+.player-bio {
+	font-size: 0.875em;
+	color: #666;
+	font-weight: bold;
+	padding: 12px 22px;
+	height: 249px;
+}
+.player-bio span, .name {
+	color: #000;
+}
+.player-bio span {
+	font-weight: normal;
+}
+.player-bio > div {
+	margin-bottom: 7px;
+}
+.stats-list {
+	color: #fff;
+	font-size: 0.75em;
+	list-style: none;
+	margin-bottom: 5px;
+}
+.stats-list li:before {
+    content: "• ";
+    color: #21a4da;
+    font-size: 18px;
+    line-height: 18px;
+    position: relative;
+    top: 2px;
+}
+.stats-block-content .blue-btn {
+	position: static;
+}
+.stats-block-content h3 {
+	margin: 0 0 3px;
+	line-height: 1;
+}
+/*behing the scenes styles*/
+.video-cat-heading {
+	margin:0 0 10px;
+	font-size: 1.125em;
+}
+/*blue book styles*/
+.bluebooks-main-slide {
+	position: relative;
+}
+.bluebooks-main-slide .panel-content {
+	left: 0px;
+	bottom: 17px;
+}
+.blue-for-books-page .blue-hat-block-content {
+	padding: 1.1875em 0.875em;
+}
+.blue-for-books-page .blue-hat-block-content .blue-btn {
+	position: static;
+	display: inline-block;
+	margin-right: 10px;
+}
+.blue-for-books-page .blue-hat-block-content h3 {
+	font-size: 1.25em;
+	margin-bottom: 5px;
+}
+.blue-for-books-page .blue-hat-block-content p {
+	margin-bottom: 5px;
+}
+.blue-for-books-page .donate-block-content .title {
+	font-size: 1.8125em;
+	font-weight: bold;
+	line-height: 22px;
+}
+.blue-for-books-page .donate-block-content {
+	height: 100%;
+}
+.blue-for-books-page .donate-overlay {
+	padding: 0 10px 10px;
+}
+.donated-books {
+	font-size: 1.625em;
+	line-height: 30px;
+	color: #1f4894;
+	font-weight: bold;
+}
+.first-book-content {
+	background:#dedacd;
+	padding: 10px;
+	height: 304px;
+}
+.first-book-content h2 {
+	font-family: Arial;
+	font-size: 1em;
+	color: #766f5a;
+	margin: 0;
+	line-height: 24px;
+}
+.first-book-content p {
+	font-size: 0.75em;
+}
+/*Media Queries
+=========================================================================================================================*/
+/* Styles for screens that are atleast 768px; */
+@media only screen and (min-width: 769px) {
+	.h89 {
+		height: 89px;
+	}
+	.h140 {
+		height: 140px;
+	}
+	.h190 {
+		height: 190px;
+	}
+	.h300 {
+		height: 300px;
+	}
+	.h458 {
+		height: 458px;
+	}
+	.padding0 {
+		padding: 0;
+	}
+	.paddingL0 {
+		padding-left: 0;
+	}
+	.paddingR0 {
+		padding-right: 0;
+	}
+	.marginb11 {
+		margin-bottom: 11px;
+	}
+	.tablet-left, .tablet-right {
+		float: none !important;
+	}
+	.purchase-hat-title {
+		width: 120px;
+	}
+	.outer-wrap {
+		background: url("../img/bg-img.jpg") no-repeat center top fixed;
+		background-size: cover;
+	}
+	.reveal-modal {
+		max-width: 60em;
+    	width: 100%; 
+    	margin-left: -30em;
+	}
+	.reveal-modal.photomodal {
+		max-width: 614px;
+		padding: 0;
+		margin-left: -307px;
+	}
+	.stats-list span {
+		margin-left: 13px;
+	}
+	.tblock {
+		display: block;
+	}
+	.home .overview > div.tweet-feed {
+		display: block !important;
+	}
+	.home .viewport {
+		height: 265px;
+		overflow: auto;
+	}
+}
+/* Styles for screens that are max 768px; */
+@media only screen and (max-width: 768px) {
+	.list-item, .slash-caret {
+		display: none;
+	}
+	.home .overview-item,
+	.performances-page .performances-item, .players-page .players-item,  .bths-page .bts-item, .blue-for-books-page .bfb-item {
+		display: block !important;
+	}
+
+	.tablet-hide {
+		display: none !important;
+	}
+	.tablet-show {
+		display: block !important;
+	}
+	small.tablet-show {
+		display: inline-block !important;
+	}
+	.tlHeight {
+		line-height: 28px;
+	}
+	.modal-text-full {
+		margin: 0 auto !important;
+		height: 240px !important;
+	}
+	.modal-heading {
+		width: 435px;
+	}
+	.event-title {
+		margin-bottom: 1em;
+	}
+	.reveal-modal.photomodal {
+		width: 614px !important;
+		padding: 0 !important;
+	}
+	.home .overview > div:nth-child(3) {
+		display: block;
+	}
+	.home .overview > div:nth-child(2) {
+		border-bottom: 1px solid #4f4f50;
+	}
+	.donate-blurb {
+		display: inline;
+	}
+	.donate-blurb, .donate-block-content a {
+		font-size: 13px;
+	}
+	.title {
+		font-size: 1.8125em;
+	}
+	.title small {
+		font-size: 15px;
+	}
+}
+/*Styles for screens that are min width 481px max width 768px */
+@media only screen and (min-width:481px ) and (max-width: 768px) {
+
+	/* MODAL STYLES */
+	.reveal-modal.textmodal{
+		width:480px;
+		height:320px;
+		padding:3px;
+		margin-left:-240px;
+	}
+
+	.modal-image{
+		display:none;
+	}
+
+
+	.modal-text{
+		float: none;
+	    height: 275px;
+	    margin: 40px 0 0 5px;
+	    overflow-y: scroll;
+	    width: 448px;
+	}
+
+
+	.video-block-content .tablet-left {
+		width: 50%;
+		text-align: left;
+		margin-left: 18px;
+		line-height: 16px;
+	}
+	.video-block-content .tablet-right {
+		width: 30%;
+		margin-right: 18px;
+		line-height: 16px;
+	}
+	.video-block-content .tablet-right .yellowtxt {
+		margin-left:0;
+	}
+	.tablet-left {
+		float: left;
+	}
+	.tablet-right {
+		float: right;
+	}
+	.news-content {
+		font-size: 0.875em;
+		width: 150px;
+		padding-top: 1px;
+		line-height: 18px;
+		padding-bottom: 0px;
+	}
+	.event-block .event-img,
+	.event-block .event-content {
+		width: 45%;
+	}
+	.donate-block-content .title {
+		padding-bottom: 0;
+	}
+	.donate-block-content .title small {
+		display: block;
+		line-height: 28px;
+	}
+	.twitter-title {
+		background-position: 100px 4px;
+	}
+	.purchase-hat-title {
+		padding: 0 0 5px;
+	}
+	.purchase-hat-title h2, .purchase-hat-title h3 {
+		display: inline;
+		line-height: .7;
+		width: 100%;
+	}
+	.purchase-hat-title h3 {
+		margin-left: 10px;
+	}
+	.tablet-paddingL29 {
+		padding-left: 1.8125em;
+	}
+	.tablet-h630 {
+		height: 630px;
+	}
+	.small-h190 {
+		height: 190px
+	}
+	.small-h130 {
+		height: 130px;
+	}
+	.small-h145 {
+		height: 145px;
+	}
+	.tablet-hauto {
+		height: auto;
+	}
+	.talignl23 {
+		margin-left: 23px;
+	}
+	.hat-link {
+		width: 48%;
+		position: relative;
+	}
+	.hat-link a {
+		display: block;
+	}
+	.phil-hat {
+		background-image: url("/content/dam/golf-kpmg/tablet-phil-blue-hat.jpg");
+		background-size: cover;
+	}
+	.stacy-hat {
+		background-image: url("/content/dam/golf-kpmg/tablet-stacy-blue-hat.jpg");
+		background-size: cover;
+	}
+	.video-block-content {
+		background-image: url("/content/dam/golf-kpmg/tablet-video-ph.jpg");
+		background-size: cover;
+	}
+	.news-slider, .news-slide {
+		min-height: 164px !important;
+	}
+	.twodigitleft .news-content {
+		width: 54%;
+	}
+	.news-bullet-nav {
+		bottom: -26px;
+	}
+	.viewport {
+		height: 90%;
+	}
+	.tweet-menu .time {
+		display: block;
+		border: 0;
+	}
+	.tweet-feed {
+		padding: 0.825em 0;
+	}
+	/*main slider*/
+	.panel-content {
+		bottom:37px;
+	}
+	.main-slide-c .panel-content {
+		background: url("../img/tab-blue-bar.png") no-repeat right top;
+		width: 80%;
+	}
+	.main-slide-c .custom-watch-the-video {
+		display: block;
+		margin: 10px 0 0;
+	}
+	.rsArrow  {
+	    position: absolute;
+	    top: 39%;
+	}
+
+	/*performance page*/
+	.dyn-stat .stat {
+		width: 53%;
+		margin-left: 17px;
+		float: left;
+	}
+	.dyn-stat .stat-number {
+		float: left;
+	}
+	.dyn-stat {
+		overflow: hidden;
+	}
+	.performance-outer-block {
+		background: #34410e;
+		padding: 10px 0 18px;
+	}
+	.performance-outer-block .viewport {
+		min-height: 246px;
+		max-height: 252px;
+	}
+	.performance-outer-block .tweet-menu .time {
+		display: inline-block;
+	}
+	.tmarginb20 {
+		margin-bottom: 20px;
+	}
+	.first-book-content {
+		height: 120px;
+	}
+	.first-book-content img {
+		float: left;
+		margin-right: 30px;
+		margin-bottom: 30px;
+	}
+	.blue-for-books-page .donate-block-content {
+		height: 159px;
+	}
+	.bluebooks-main-slide {
+		position: relative;
+		height: 400px;
+		background: url("/content/dam/golf-kpmg/blue-book-main.jpg") no-repeat center top;
+		background-size: cover;
+	}
+	.bluebooks-main-slide img {
+		display: none;
+	}
+}
+/*Styles for screens that are max width 480px */
+@media only screen and (max-width: 480px) {
+
+
+	/* MODAL STYLES */
+	.reveal-modal.textmodal{
+		width:320px;
+		height:320px;
+		padding:3px;
+		margin-left:-160px;
+	}
+
+	.modal-image{
+		display:none;
+	}
+	.show-small {
+		display: block !important;
+	}
+	
+	.modal-text{
+		float: none;
+	    height: 275px;
+	    margin: 40px 0 0 5px;
+	    overflow-y: scroll;
+	    width: 306px;
+	}
+	
+	.modal-heading {
+		width: inherit;
+	}
+	.smarginb20 {
+		margin-bottom: 20px;
+	}
+	.w50percent {
+		width:50% !important;
+	}
+	.w100percent {
+		width: 100% !important;
+	}
+	.hide-smartphone-down {
+		display: none !important;
+	}
+	.twitter-block {
+		margin-bottom: 20px;
+	}
+	.news-content {
+		width: 80%;
+	}
+	.outer-wrap {
+		background: #edece7;
+	}
+	/*.donate-block-content img {
+		float: left;
+		margin: 0 20px 30px 0;
+	}*/
+	.donate-block-content {
+		height: 160px;
+	}
+	.donate-block-content .title {
+		padding: 10px 0 0;
+	}
+	.donate-block-content .title small {
+		display: block;
+		line-height: 33px;
+	}
+	.smart-phone-row, .smart-phone-show {
+		display: block !important;
+	}
+	.header .row, .header .columns, .slider, .spadding0 {
+		padding: 0 !important;
+	}
+	.header .row {
+		margin-bottom: 0 !important;
+	}
+	.mobile-menu {
+		box-shadow: 0 8px 12px rgba(0,0,0,0.5);
+		z-index: 10;
+	}
+	.news-bullet-nav {
+		bottom: -21px;
+		z-index: 100;
+		margin-bottom: 20px;
+	}
+	.news-slider {
+		min-height: 140px;
+	}
+	
+	.nav-heading {
+		float:right !important;
+		padding-right: 11px;
+	}
+	.mobile-header {
+		background:url("../img/logo.png") no-repeat left top;
+	}
+	.page-title {
+		display: none !important;
+	}
+	.home .page-title-overview-item, .performances-page .page-title-performances-item, .players-page .page-title-players-item, .bths-page .page-title-bts-item, .blue-for-books-page .page-title-bfb-item {
+		display: block !important;
+	}
+
+	.main-slide-a {
+		background:url("/content/dam/golf-kpmg/mobile-img1.jpg") no-repeat center top;
+		background-size: cover;
+	
+	}
+	.main-slide-b {
+		background:url("/content/dam/golf-kpmg/mobile-img2.jpg") no-repeat center top;
+		background-size: cover;
+		
+	}
+	.main-slide-c {
+		background:url("/content/dam/golf-kpmg/mobile-img3.jpg") no-repeat center top;
+		background-size: cover;
+		
+	}
+	.main-slide-d {
+		background:url("/content/dam/golf-kpmg/mobile-img4.jpg") no-repeat center top;
+		background-size: cover;
+		
+	}
+	.panel-content {
+		background:url("/content/dam/golf-kpmg/blue-bar.png") no-repeat right top;
+		bottom: 30px;
+		left: 0;
+	    position: absolute;
+	    padding: 18px 40px 10px 10px;
+	}
+	.main-slide-b .panel-content, .main-slide-c .panel-content, .main-slide-d .panel-content {
+		padding: 18px 40px 10px 10px;
+	}
+	.main-slide-b .panel-content, .main-slide-c .panel-content h2 {
+		font-size: 1em;
+	}
+	.panel-content h2 {
+		font-size: 1.1875em;
+		line-height: 1.4;
+		margin: 0;
+	}
+	.panel-content .subtext{
+		color: #fff;
+	    font-size: 0.875em;
+	    line-height: 1.4;
+	    margin: 0;
+	}
+	.main-slide-d .subtext {
+		display: inline-block;
+	}
+	.main-slide-d .custom-watch-the-video {
+		margin: 0;
+	}
+	.custom-watch-the-video {
+	    background: url("../img/video-plus-icon.png") no-repeat left center;
+	    font-size: 0.75em;
+	    line-height: 1.125;
+	    font-weight: bold;
+	    padding-left: 13px;
+	    text-transform: uppercase;
+	    margin-right: 5px;
+	}
+	.rsArrow {
+		position: absolute;
+		top: 25%;
+	}
+	.rsNav {
+		bottom: 5px;
+	}
+	.performance-slide-a {
+		background:url("/content/dam/golf-kpmg/performance-mslide1.jpg") no-repeat center top;
+		background-size: cover;
+		
+	}
+	.performance-slide-b {
+		background:url("/content/dam/golf-kpmg/performance-mslide2.jpg") no-repeat center top;
+		background-size: cover;
+		
+	}
+	.performance-slide-c {
+		background:url("/content/dam/golf-kpmg/performance-mslide3.jpg") no-repeat center top;
+		background-size: cover;
+		
+	}
+	.performance-slide-d {
+		background:url("/content/dam/golf-kpmg/performance-mslide7.jpg") no-repeat center top;
+		background-size: cover;
+		
+	}
+	.performance-slide-f {
+		background:url("/content/dam/golf-kpmg/performance-mslide5.jpg") no-repeat center top;
+		background-size: cover;
+		
+	}
+	.performance-slider {
+		height: 400px;
+	}
+	.performance-slider .panel-content h2 {
+		font-size: 1.125em;
+		line-height: 1.2;
+	}
+	.performance-slider .panel-content {
+		bottom: 50px;
+	}
+	.performance-slider .panel-content .subtext {
+		margin: 0 0 5px;
+	}
+	.performance-slider .panel-content {
+		background:url("../img/blue-bar.png") no-repeat right top;
+	}
+	.performance-slider .rsArrow  {
+	    position: absolute;
+	    top: 40%;
+	}
+	.performances-page .blue-hat-block-content {
+		height: 116px;
+	}
+	.bhts-heading {
+		font-size: 1.375em;
+		color: #00338d;
+		margin: 1em 0 1em .5em;
+	}
+	.border-top {
+		border-top: 10px solid #00338d;
+	}
+	.blue-for-books-page .blue-hat-block-content .blue-btn {
+		margin-top: 10px;
+	}
+	.bluebooks-main-slide {
+		position: relative;
+		height: 266px;
+		background: url("/content/dam/golf-kpmg/blue-book-main.jpg") no-repeat center top;
+		background-size: cover;
+	}
+	.bluebooks-main-slide img {
+		display: none;
+	}
+	.donated-books {
+		font-size: 1.4375em;
+	}
+	.photo-gallery {
+		position: relative;
+		height: 210px;
+		width: 300px;
+	}
+	.reveal-modal.photomodal {
+		width: 300px !important;
+		margin-left: -150px;
+	}
+}
+/*Styles for screens that are min width 600px max width 650px */
+@media only screen and (min-width:600px ) and (max-width: 650px) {
+	.home .tablet-h630 {
+		height: 596px;
+	}
+	.number-count {
+		font-size: 2.5em;
+	}
+	.news-content {
+		width: 120px;
+		font-size: 0.6875em;
+	}
+	.twodigitleft .left {
+		float: none !important
+	}
+	.twodigitleft .news-content {
+		width: 100%;
+		/*font-size: 13px;*/
+	}
+	.home .panel-content {
+		bottom: 12px;
+	}
+	.home .panel-content h2 {
+		font-size: 1.5em;
+	}
+	.home .panel-content .custom-watch-the-video  {
+		font-size: 0.75em;
+	}
+	.main-slide-c .panel-content h2 {
+		font-size: 18px;
+	}
+	.home .rsArrow {
+		top: 30%;
+	}
+	.home .main-slide-d .panel-content {
+		bottom:30px;
+	}
+	.navigation .nav-heading, .navigation .clear {
+		margin-left: 30px;
+	}
+	.performances-page .blue-hat-block-content {
+		height: 112px;
+	}
+	.blue-for-books-page .donate-block-content {
+		height: 130px;
+	}
+	.blue-for-books-page .donated-books {
+		font-size: 1em;
+	}
+	.home .overview > div:nth-child(3) {
+		display: none;
+	}
+	.home .overview > div:nth-child(2) {
+		border-bottom: 0;
+	}
+	small.tablet-show {
+		/*display: block;
+		font-size: 11px;*/
+		width: 100%;
+	}
+	.donate-block-content .title {
+		margin-bottom: -5px;
+	}
+	.purchase-hat-title h3 {
+		font-size: 0.775em;
+	}
+}

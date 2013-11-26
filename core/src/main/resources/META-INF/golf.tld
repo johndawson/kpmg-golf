@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+
+    <tlib-version>2.0</tlib-version>
+    <short-name>golf</short-name>
+    <uri>http://golf-kpmg.com/golf.tld</uri>
+
+    <tag>
+        <name>ifWcmMode</name>
+        <tag-class>com.kpmg.golf.tags.IfWcmModeTag</tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <description>Can be one of the following modes, or comma separated list of modes: preview | design | edit | disabled | read_only</description>
+            <name>modes</name>
+            <required>true</required>
+        </attribute>
+        <attribute>
+            <description>Whether evaluate or not body of the tag in specified modes, by default it true. true | false</description>
+            <name>evaluate</name>
+            <type>java.lang.Boolean</type>
+        </attribute>
+    </tag>
+    <tag>
+        <name>setWcmMode</name>
+        <tag-class>com.kpmg.golf.tags.SetWcmModeTag</tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <description>Can be one of the following modes: preview | design | edit | disabled | read_only</description>
+            <name>mode</name>
+            <required>true</required>
+        </attribute>
+    </tag>
+    <tag>
+        <description>see http://dev.day.com/content/kb/home/cq5/Development/ComponentDiv.html</description>
+        <name>forceSameContext</name>
+        <tag-class>com.kpmg.golf.tags.ForceSameContext</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>absoluteLink</name>
+        <tag-class>com.kpmg.golf.tags.AbsoluteLink</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>path</name>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <description>Adds .html extension to url if does not end with it</description>
+        <name>url</name>
+        <tag-class>com.kpmg.golf.tags.Url</tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <name>value</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>map</name>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Boolean</type>
+        </attribute>
+    </tag>
+    <tag>
+        <name>component</name>
+        <tag-class>com.kpmg.golf.tags.ComponentTag</tag-class>
+        <tei-class>com.kpmg.golf.tags.ComponentTEI</tei-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <name>className</name>
+            <required>true</required>
+        </attribute>
+        <attribute>
+            <name>var</name>
+        </attribute>
+    </tag>
+
+    <function>
+        <name>urlEncode</name>
+        <function-class>com.kpmg.golf.tags.UtilFunctions</function-class>
+        <function-signature>java.lang.String urlEncode(java.lang.String)</function-signature>
+    </function>
+    <function>
+        <name>quoteJson</name>
+        <function-class>com.kpmg.golf.tags.UtilFunctions</function-class>
+        <function-signature>java.lang.String quoteJson(java.lang.String)</function-signature>
+    </function>
+    <function>
+        <name>escapeHtml</name>
+        <function-class>com.kpmg.golf.tags.UtilFunctions</function-class>
+        <function-signature>java.lang.String escapeHtml(java.lang.String)</function-signature>
+    </function>
+    <function>
+        <name>escapeJS</name>
+        <function-class>com.kpmg.golf.tags.UtilFunctions</function-class>
+        <function-signature>java.lang.String escapeJavaScript(java.lang.String)</function-signature>
+    </function>
+    <function>
+        <name>ellipsis</name>
+        <function-class>com.kpmg.golf.tags.UtilFunctions</function-class>
+        <function-signature>java.lang.String ellipsis(java.lang.String,int)</function-signature>
+    </function>
+    <function>
+        <name>stripHtml</name>
+        <function-class>com.kpmg.golf.tags.UtilFunctions</function-class>
+        <function-signature>java.lang.String stripHtml(java.lang.String)</function-signature>
+    </function>
+    <function>
+        <name>pageParent</name>
+        <function-class>com.kpmg.golf.tags.UtilFunctions</function-class>
+        <function-signature>com.day.cq.wcm.api.Page pageParent(com.day.cq.wcm.api.Page)</function-signature>
+    </function>
+    <function>
+        <description>
+            Joins all elements of an array into a string.
+        </description>
+        <name>join</name>
+        <function-class>com.kpmg.golf.tags.UtilFunctions</function-class>
+        <function-signature>java.lang.String join(java.util.List, java.lang.String, java.lang.String)</function-signature>
+        <example>
+            ${golf:join(list, ";", "%s")}
+        </example>
+    </function>
+
+</taglib>

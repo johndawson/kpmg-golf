@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="{Long}850"
+    title="RAW HTML"
+    width="{Long}800"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="panel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <main
+                jcr:primaryType="cq:Panel"
+                autoHeight="{Boolean}true"
+                autoWidth="{Boolean}true"
+                layout="form"
+                padding="10px 0 0 10px"
+                title="HTML"
+                xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <html
+                        jcr:primaryType="cq:Widget"
+                        boxMaxHeight="{Long}700"
+                        boxMinWidth="{Long}600"
+                        fieldLabel="Edit HTML content"
+                        height="{Long}700"
+                        name="./html"
+                        width="{Long}600"
+                        xtype="textarea"/>
+                </items>
+            </main>
+        </items>
+    </items>
+</jcr:root>
